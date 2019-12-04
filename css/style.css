@@ -1,0 +1,188 @@
+html{
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.center{
+  width: fit-content;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:482px;
+    height:42px;
+    border:1px solid #ccc;
+    border-radius:16px;
+  }
+
+  .search-bar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  }
+
+ .buttons{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+  }
+  
+  .buttons:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+  }
+
+
+ 
+input[type=text]{
+  border: none;
+  width:387px;
+  height:34px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font: 16px arial,sans-serif;
+  line-height: 34px;
+  background-color: transparent;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+svg{
+  fill: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  text-align: center;
+  padding: 0 7px 0 7px;
+  color: #000;
+    opacity: 0.75;
+  text-decoration: none;
+  margin-top:7px;
+  margin-right:2px;
+  align-items: center;
+}
+
+.bottomnav {
+  overflow: hidden;
+}
+
+.bottomnav a {
+  text-align: center;
+  padding: 0 7px 0 7px;
+  color: #000;
+    opacity: 0.75;
+  text-decoration: none;
+  margin-top:2px;
+  margin-right:2px;
+  align-items: center;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.apps{
+
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    cursor: pointer;
+    height: 30px;
+    opacity: 0.55;
+    user-select: none;
+    vertical-align: middle;
+    width: 30px;
+    padding: 0 7px 0 7px;
+
+  
+}
+
+#buttonBox{
+  width: fit-content;
+  padding: 10px;
+}
+
+#sign-on-button{
+  color: #fff;
+  cursor: default;
+    text-decoration: none;
+  border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 0 7px 0 7px;
+
+}
+
+#logo{
+margin-top: 100px;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+}
+.full-bar{
+  background: #f2f2f2;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+ 
+}
+
+#bottomText{
+  padding: 0 7px 0 7px;
+  font-size: 15px;
+  margin-right:2px;
+  color: #000;
+    opacity: 0.75;
+}
+
+
+
